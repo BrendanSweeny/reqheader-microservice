@@ -12,6 +12,6 @@ A simple request header parser that returns a JSON object of request headers
 
 ## Examples
 
-* GET "/" => "{"ipaddress":"\<IP address\>","language":"en-US","software":"Windows NT 10.0; WOW64"}"
-* GET "/accept-language" => "{"accept-language":"en-US,en;q=0.8"}"
-* GET "/vacantKey" => "{}"
+* https://reqheader-microservice.herokuapp.com => "{"ipaddress":"\<IP address\>","language":"en-US","software":"Windows NT 10.0; WOW64"}"
+* https://reqheader-microservice.herokuapp.com/accept-language => "{"accept-language":"en-US,en;q=0.8"}"
+* https://reqheader-microservice.herokuapp.com/vacantKey => "{}"

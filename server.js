@@ -11,6 +11,6 @@ var app = express();
 routes(app);
 
 //Listens to PORT assigned by .env (by heroku) or 8080 locally
-app.listen(8080, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log("Server is listening on port 8080...");
 })

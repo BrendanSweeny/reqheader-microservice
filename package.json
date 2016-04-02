@@ -1,0 +1,13 @@
+{
+  "name": "reqheader-microservice",
+  "version": "0.0.0",
+  "description": "A simple request header parser that returns a JSON object of request headers.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Brendan Sweeny",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
+}
